@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>Youtube Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">        
+    </head>
+    <body>
+        <div id="page-container">
+            <nav>
+                <div id="menu-and-logo">
+                    <img src="images/menu.svg" alt="Menu icon" id="menu-icon">
+                    <img src="images/yt-logo.svg" alt="YouTube Logo" id="yt-logo">
+                </div>                
+                <div id="search-section">
+                    <input id="search" type="text" placeholder="Search...">
+                    <button type="submit" id="submit"><img src="images/magnify.svg"></button>
+                    <img src="images/icons8-microphone-24.png" alt="voice search" id="voice-search">
+                </div>
+                <div id="right-menu">
+                    <img src="images/video-plus.svg" alt="create video" id="create-video">
+                    <img src="images/apps.svg" alt="Google apps" id="app-image">
+                    <img src="images/icons8-notification-24.png" alt="notification bell" id="noti-bell">
+                    <img src="images/unnamed.jpg" alt="User avatar" id="user-avi" class="avatar">  
+                </div>
+            </nav>
+            <section id="video-and-comments">
+                <div id="youtube-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div id="video-title">
+                    <p id="video-title">lofi hip hop radio - beats to relax/study to</p>
+                </div>
+                <div id="viewcount-and-buttons">
+                    <div id="viewcount">
+                        <p id="viewcount">38 800 visionnages en cours
+                            •Diffusion lancée le 22 févr. 2020</p>
+                    </div>
+                    <div id="buttons">
+                        <div id="upvotes">
+                            <img src="images/thumb-up.svg" alt="thumbs up" id="thumbs-up"> 59K 
+                        </div>
+                        <div id="downvotes">
+                            <img src="images/thumb-down.svg" alt="thumbs down" id="thumbs-down"> 1K </div>
+                        <div id="share">
+                            <img src="images/share.svg" alt="Share" id="share-button"> SHARE 
+                        </div>
+                        <div id="save">
+                            <img src="images/playlist-plus.svg" alt="playlist" id="playlist"> SAVE 
+                        </div>
+                        <div id="more">
+                            <img src="images/dots-horizontal.svg" alt="More options" id="hori-dots"> 
+                        </div>
+                    </div>
+                </div>
+                <div id="chan-sub-and-desc">
+                    <div id="chan-and-sub">
+                        <div id="channel">
+                            <div id="channel-logo-div">
+                                <img src="images/unnamed-2.jpg" alt="channel logo" class="avatar">
+                            </div>
+                            <div id="channel-name-div">
+                                <p id="channel-name">ChilledCow</p>
+                                <p id="sub-count">7,38 M d’abonnés</p>
+                            </div>
+                        </div>
+                        <div id="sub-button">SUBSCRIBE</div>
+                    </div>
+                    <div id="description-div">
+                        <p id="description">Thank you for listening, I hope you will have a good time here :)
+
+                            🎼 Listen to the playlist on Spotify, Apple music and more</p>
+                    </div>
+                </div>
+                <div id="add-comment">
+                    <div id="comment-and-sort">
+                        <p id="comment-count">5,154 comments</p>
+                        <img src="images/sort-variant.svg" alt="sort comments" id="sort-comments"> SORT BY
+                    </div>
+                    <div id="avi-and-search">
+                        <img src="images/unnamed.jpg" alt="User avatar" id="user-avatar-comment" class="avatar">
+                        <input type="text" name="comment-bar" id="comment-bar" placeholder="Add a public comment...">
+
+                    </div>
+                </div>
+                <div id="comments-section">
+                    <div id="comment-1" class="comment-details">
+                        <div class="comment-avatar"></div>
+                        <div class="comment-detail">
+                            <p class="commenter">Wing N.</p>
+                            <p class="comment-date">3 Years Ago</p>
+                        </div>
+                        <div class="comment"><p>"use your powers for good" haha
+                            thank you for the video.</p>
+                        </div>
+                        <div class="comment-interact">
+                            <img src="images/thumb-up.svg" alt="thumbs up"> 19
+                            <img src="images/thumb-down.svg" alt="thumbs down"> 1
+                            REPLY
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="related-videos"></section>
+        </div>
+    </body>
+</html>
