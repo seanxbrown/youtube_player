@@ -7,5 +7,125 @@
 body {
     background-color: #111;
     color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Styling the nav bar and elements inside*/
+
+nav {
+    background-color: #222;
+    opacity: 0.97;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    top: 0;
+    position: fixed;
+
+}
+
+#menu-and-logo {
+margin: 1rem;
+display: flex;
+justify-content:space-between;
+}
+
+
+#search-section {
+margin: 1rem;
+width: 45vw;
+display:flex;
+align-items: center;
+align-content: center;
+justify-content: space-evenly;
+
+}
+
+#search-and-button {
+    border: 1px solid #444;
+    display: flex;
+    align-items: stretch;
+}
+
+#search {
+    width: 35vw;;
+    border: 0px solid #444;
+    background-color: #111;
+    color: #eee;
+}
+
+#submit {
+    width:3.5vw;
+    color: #FFF;
+    background-color: #444;
+    border:0px;
+}
+
+#search-mag{
+    margin: auto;
+}
+
+
+#right-menu {
+    margin: 1rem;
+    width: 13vw;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#user-avi {
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+/* Layout formatting for the video and recommended sectons will probs go here */
+#video-and-comments {
+    margin: 6rem;
+    width: 55vw;
+}
+
+/*Main video section styling*/
+
+
+#youtube-video iframe {
+    width: 854px;
+    height: 480px;
+}
+
+#video-title {
+    font-size: 1.1rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+}
+
+#viewcount-and-buttons {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #666;
+
+}
+
+#viewcount {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 0.5rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+}
+
+#upvotes, #downvotes, #share, #save {
+    display: flex;
+    justify-content: space-around;
+    width: 4vw;
+}
+
+#upvotes img, #downvotes img, #share img, #save img{
+    width:20px;
+    height: 20px;
+}
