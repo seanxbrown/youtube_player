@@ -129,3 +129,60 @@ justify-content: space-evenly;
     width:20px;
     height: 20px;
 }
+
+/* Video description section*/
+
+#chan-and-sub {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+.avatar {
+    border-radius: 100%;
+    width: 40px;
+}
+
+#channel {
+    display: flex;
+    width: 12vw;
+    justify-content: space-between;
+
+}
+
+#sub-button {
+    background-color: #A00;
+    padding: 0.6rem 0;
+    width: 8vw;
+    height: 4vh;
+    text-align: center;
+    border-radius: 1%;
+}
+
+#description-div {
+    border-bottom: 1px solid #666;
+    text-align: justify;
+
+}
+
+#add-comment {
+    margin-top: 1rem;
+}
+
+#comment-and-sort {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#comment-bar {
+    width: 90%;
+    padding: 0.5rem;
+    border: 0;
+    background-color: #111;
+    color:#ddd;
+    border-bottom: 1px solid #666;
+}
+
+#comments-section {
+    margin-top: 1rem;
+}
