@@ -154,9 +154,13 @@ justify-content: space-evenly;
     background-color: #A00;
     padding: 0.6rem 0;
     width: 8vw;
-    height: 4vh;
+    height: 5vh;
     text-align: center;
     border-radius: 1%;
+}
+
+#sub-button p {
+    margin: auto;
 }
 
 #description-div {
@@ -164,6 +168,7 @@ justify-content: space-evenly;
     text-align: justify;
 
 }
+
 
 #add-comment {
     margin-top: 1rem;
@@ -180,9 +185,66 @@ justify-content: space-evenly;
     border: 0;
     background-color: #111;
     color:#ddd;
-    border-bottom: 1px solid #666;
 }
 
+#add-comment {
+    border-bottom: 1px solid #666;
+
+}
+
+/* Styling the comments section */
 #comments-section {
     margin-top: 1rem;
+    height: 70vw;
+}
+
+.comment-box {
+    margin-top: 1rem;
+}
+.comment-avatar-div {
+    margin-right: 1rem;
+}
+.comment-avatar{
+    border-radius: 100%;
+}
+
+.comment-box {
+    display: flex;
+}
+
+.comment-detail {
+    width: 100%;
+}
+
+.commenter-and-date {
+    display: flex;
+    justify-content: flex-start;
+    width: 20vw;
+
+}
+.commenter {
+    margin-right: 1rem;
+}
+
+.comment, .comment-interact {
+    margin-top: 0.5rem;
+}
+.comment-interact {
+    display: flex;
+    justify-content: space-between;
+    width: 11vw;
+
+}
+
+/*Now the related videos section!*/
+
+
+#video-and-comments{
+}
+
+#related-videos {
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    
 }
