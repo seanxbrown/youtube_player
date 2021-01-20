@@ -10,6 +10,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#page-container {
+    width: 100%;
+}
+
+#main-and-related {
+    width: 100%;
+    display: flex;
+}
+
 /*Styling the nav bar and elements inside*/
 
 nav {
@@ -240,11 +249,24 @@ justify-content: space-evenly;
 
 
 #video-and-comments{
+    width: 50%;
 }
 
 #related-videos {
-    border: 1px solid red;
-    height: 100px;
-    width: 100px;
+    width: 30%;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    
+    
+}
+
+
+.related-box {
+    display:flex;
+}
+.related-thumbnail {
+    width: 12vw;
+    margin-right: 0.5rem;
+    cursor: pointer;
     
 }
