@@ -267,6 +267,18 @@ justify-content: space-evenly;
 .related-thumbnail {
     width: 12vw;
     margin-right: 0.5rem;
+    margin-bottom: 0.7rem;
     cursor: pointer;
     
+}
+
+
+.related-info{
+    font-size: 0.8rem;
+    color: #bbb;
+}
+
+.related-title {
+    color: white;
+    font-size: 0.9rem;
 }
